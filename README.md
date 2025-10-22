@@ -1,7 +1,7 @@
 # 🧾 Transcripción Histórica con Python y OCR
 
 Este repositorio contiene el proyecto **"Transcripción Histórica"**, presentado en el curso de Filosofía Peruana 2025-2 (UNMSM).  
-Su objetivo es **mostrar cómo las herramientas computacionales —particularmente Python y OCR— pueden aplicarse a las humanidades** para digitalizar, analizar y re-editar textos antiguos. En este caso, el texto empleado para estr repositorio es "Vidaurre contra Vidaurre: Curso de Derecho Eclesiástico" de Manuel Lorenzo de Vidaurre.
+Su objetivo es **mostrar cómo las herramientas computacionales —particularmente Python y OCR— pueden aplicarse a las humanidades** para digitalizar, analizar y re-editar textos antiguos. En este caso, el texto empleado para este proyecto es "Vidaurre contra Vidaurre: Curso de Derecho Eclesiástico" de Manuel Lorenzo de Vidaurre.
 
 ---
 
