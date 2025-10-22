@@ -5,7 +5,7 @@ Su objetivo es **mostrar cómo las herramientas computacionales —particularmen
 
 ---
 
-## 🎯 Objetivo del proyecto
+## 🐈 Objetivo del proyecto
 
 El proyecto parte de la digitalización de un texto histórico disponible en la **Biblioteca Digital PUCP**, cuyo formato original era un PDF compuesto únicamente por imágenes (sin texto reconocible).
 
@@ -17,7 +17,7 @@ A partir de ello, se implementó un flujo de trabajo que permite:
 
 ---
 
-## 🧠 Tecnologías utilizadas
+## 🐈 Tecnologías utilizadas
 
 | Herramienta | Uso principal |
 |--------------|---------------|
@@ -30,19 +30,20 @@ A partir de ello, se implementó un flujo de trabajo que permite:
 
 ---
 
-## 🧩 Estructura del repositorio
+## 🐈 Estructura del repositorio
 
+```plaintext
 transcripcion-historica/
 │
-├── 45 DER 1322.pdf # Documento histórico original (escaneado)
-├── documento_limpio_partes/ # Carpeta con resultados parciales del OCR
-├── documento_limpio_gemini.md # Transcripción limpia generada con IA (Gemini)
-├── documento_limpio_gemini.docx # Versión Word del texto transcrito
-├── transcripcion_simple.md # Resultado previo o versión base del OCR
-├── transcripcion.ipynb # Notebook principal con el código de procesamiento OCR
-├── requirements.txt # Librerías necesarias para ejecutar el notebook
-└── README.md # Descripción del proyecto (este archivo)
-
+├── 45 DER 1322.pdf               # Documento histórico original (escaneado)
+├── documento_limpio_partes/      # Carpeta con resultados parciales del OCR
+├── documento_limpio_gemini.md    # Transcripción limpia generada con IA (Gemini)
+├── documento_limpio_gemini.docx  # Versión Word del texto transcrito
+├── transcripcion_simple.md       # Resultado previo o versión base del OCR
+├── transcripcion.ipynb           # Notebook principal con el código de procesamiento OCR
+├── requirements.txt              # Librerías necesarias para ejecutar el notebook
+└── README.md                    # Descripción del proyecto (este archivo)
+```
 
 ---
 
@@ -69,7 +70,7 @@ El proyecto sigue una secuencia reproducible que combina técnicas de **OCR**, *
 
 ---
 
-## 🧠 Objetivo Académico
+## 🐈 Objetivo Académico
 
 Este proyecto busca demostrar el **potencial de Python en las humanidades**, especialmente para:
 
