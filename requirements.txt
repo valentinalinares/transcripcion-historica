@@ -1,0 +1,33 @@
+# ==============================================================================
+# REQUIREMENTS PARA TRANSCRIPCIÓN DE PDF CON OCR
+# Python 3.11 compatible
+# ==============================================================================
+
+# Librerías principales para OCR y procesamiento de PDF (Python 3.11)
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+
+# Librerías adicionales para limpieza con IA
+google-generativeai>=0.3.0
+python-docx>=0.8.11
+
+# Especificación de versión de Python
+python_requires>=3.11
+
+# ==============================================================================
+# NOTAS DE INSTALACIÓN DEL SISTEMA
+# ==============================================================================
+# Para sistemas Ubuntu/Debian, instalar primero:
+# sudo apt-get update
+# sudo apt-get install -y tesseract-ocr tesseract-ocr-spa libtesseract-dev poppler-utils
+#
+# Para Windows:
+# 1. Descargar e instalar Tesseract desde: https://github.com/UB-Mannheim/tesseract/wiki
+# 2. Descargar e instalar Poppler desde: https://blog.alivate.com.au/poppler-windows/
+# 3. Asegurar que ambos estén en el PATH del sistema
+#
+# Para macOS:
+# brew install tesseract tesseract-lang poppler
+# ==============================================================================
